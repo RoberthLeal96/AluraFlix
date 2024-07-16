@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid var(--color-primary);
+
+    padding: 20px 0;
+}
+
+.logo {
+    position: relative;
+    width: 252px;
+    height: 60px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary);
+    height: 54px;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:425px) {
+    .logo {
+        position: relative;
+        width: 120px;
+        height: 28px;
+    }
+}
